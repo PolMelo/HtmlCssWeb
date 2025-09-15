@@ -1,0 +1,10 @@
+div{ background-color: red;
+      width: 100px;
+      height: 100px;
+      outline: 5px dotted blue;
+      
+}
+
+div:hover{ outline: 4px dotted green;
+          
+}
