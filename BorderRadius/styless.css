@@ -1,0 +1,43 @@
+tfoot td{text-align: center;
+background-color: rgb(163, 208, 250);
+border-style:none;
+}
+caption span {background-color: rgb(163, 208, 250);
+text-align: center;
+font-weight: bold;
+}
+
+table {
+    text-align:center;
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color:black;
+    border-style: solid;
+    border-bottom:solid px black;
+    border-left: solid 1px black;
+
+}
+
+thead{
+    border:0cm;
+}
+td {
+    border-bottom: solid 3px black;
+    border-left: solid 1px black;
+}
+
+.taula {
+
+
+}
+
+div {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    background-color: lightpink;
+}

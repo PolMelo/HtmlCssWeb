@@ -1,0 +1,26 @@
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}   
+
+html {
+
+background-color: rgb(252, 185, 159);
+}
+
+div {
+    border: 2px solid black;
+    width: 555px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    background-color: grey;
+}
