@@ -1,0 +1,41 @@
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.circulo1 {
+  height: 20px;
+  width: 20px;
+  background-color: #05fc57;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.circulo2 {
+  height: 20px;
+  width: 20px;
+  background-color: #05fc57;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.circulo3 {
+  height: 20px;
+  width: 20px;
+  background-color: #05fc57;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.circulo4 {
+  height: 20px;
+  width: 20px;
+  background-color: #05fc57;
+  border-radius: 50%;
+  text-align: center;
+}
+
+div {
+  border: 2px solid black;
+}
