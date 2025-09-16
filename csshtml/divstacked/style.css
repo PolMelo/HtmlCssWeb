@@ -4,7 +4,7 @@
   background-color: red;
 }
 
-.circulo1 {
+.circulo {
   height: 20px;
   width: 20px;
   background-color: #05fc57;
@@ -12,29 +12,30 @@
   text-align: center;
 }
 
-.circulo2 {
-  height: 20px;
-  width: 20px;
-  background-color: #05fc57;
-  border-radius: 50%;
-  text-align: center;
+.uno {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
-.circulo3 {
-  height: 20px;
-  width: 20px;
-  background-color: #05fc57;
-  border-radius: 50%;
-  text-align: center;
+.dos {
+  position: absolute;
+  top: 0px;
+  left: 100px;
 }
 
-.circulo4 {
-  height: 20px;
-  width: 20px;
-  background-color: #05fc57;
-  border-radius: 50%;
-  text-align: center;
+.tres {
+  position: absolute;
+  top: 100px;
+  left: 0px;
 }
+
+.cuatro {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
 
 div {
   border: 2px solid black;

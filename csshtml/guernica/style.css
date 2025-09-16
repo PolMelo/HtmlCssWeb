@@ -1,0 +1,14 @@
+div {
+    flex: auto;
+}
+
+.texto {
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+
+img {
+    float: right;
+    width:50%;
+}

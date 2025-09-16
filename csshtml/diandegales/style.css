@@ -1,0 +1,77 @@
+.circulo {
+    margin-top: 30px;
+        text-align: center;
+        border-radius: 50%;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        border: 2px solid black;
+        text-align: center;
+        box-shadow: 5px 5px 8px rgb(134, 111, 111);
+}
+.horizontal {
+        position: absolute;
+        top: 275px;
+        left: 0px;
+        width: 503px;
+        height: 3px;
+        background-color: black;
+        z-index: 6;
+}
+
+.vertical {
+        position: absolute;
+        top: 30px;
+        left: 250px;
+        width: 3px;
+        height: 503px;
+        background-color: black;
+        z-index: 6;
+}
+
+.blanco {
+        background-color: white;
+}
+
+.rojo {
+        background-color: red;
+}
+
+.primero {
+        width: 500px;
+        height: 500px;
+        z-index: 1;
+        top: 0px;
+        left: 0px ;
+
+}
+.segundo {
+        width: 400px;
+        height: 400px;
+z-index: 2;
+top: 50px;
+left: 50px;
+}
+
+.tercero {
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        top: 100px;
+        left: 100px;
+}
+.cuarto {
+        width: 200px;
+        height: 200px;
+        z-index: 4;
+        top: 150px;
+        left: 150px;        
+}
+.quinto {
+        width: 100px;
+        height: 100px;
+        z-index: 5;
+        top: 200px;
+        left: 200px;
+        
+}

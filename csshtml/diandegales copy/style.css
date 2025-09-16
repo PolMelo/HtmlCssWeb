@@ -1,0 +1,63 @@
+.circulo {
+    margin-top: 30px;
+        text-align: center;
+        border-radius: 50%;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+
+}
+
+
+.blanco {
+        background-color: rgb(243, 229, 229);
+}
+
+.rojo {
+        background-color: rgb(1, 60, 1);
+}
+
+.primero {
+        width: 500px;
+        height: 500px;
+        z-index: 1;
+        top: 0px;
+        left: 0px ;
+
+}
+.segundo {
+        width: 400px;
+        height: 400px;
+z-index: 2;
+top: 50px;
+left: 50px;
+background-color: blueviolet;
+}
+
+.tercero {
+        width: 300px;
+        height: 300px;
+        z-index: 3;
+        top: 100px;
+        left: 100px;
+}
+.cuarto {
+        width: 200px;
+        height: 200px;
+        z-index: 4;
+        top: 150px;
+        left: 150px;        
+        background-color:rgb(255, 225, 0);
+}
+
+.estrella {
+        width: 150px;
+        height: 150px;
+        z-index: 5;
+        top: 175px;
+        left: 175px;        
+        background-color:rgb(245, 249, 9);
+        font-size: 100px;
+        color: white;
+}
