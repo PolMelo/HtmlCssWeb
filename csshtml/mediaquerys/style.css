@@ -1,24 +1,23 @@
 
 body {
-    margin: 0;
+    margin: 0%;
     padding: 0;
 }
 
 div {
     display: block;
-    margin: 10px;
+    margin: 1% 1% 1% 1%;
     padding: 0px 0px 0px 0px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
 }
 
 .green {
     background-color: green;
     width: 98%;
     height: 400px;
+    float:left;
     
 }
+
 
 
 @media (width < 320px) {
@@ -26,30 +25,44 @@ div {
         background-color: lightblue;
     }
 
+    .green {
+    background-color: green;
+    width: 98%;
+    height: 100px;
+    float:left;
+    clear:both;
+    
+}
+
 
     .orange {
     background-color: orange;
     height: 100px;
-    width: 96%;
+    width: 98%;
+    float:left;
 }
 
 
 
 .blue {
     background-color: blue;
-    height: 30px;
-    width: 96%;
+    height: 100px;
+    width: 98%;
+    float:left;
 }
 
 
 .grey {
     background-color: grey;
     height: 80px;
-    width: 100%;
-    display:inline-block;
+    width: 98%;
+    float:left;
+    
 }
     
 }
+
+/* merda mitja mida */
 
 @media (320px <= width <= 768px) {
     body {
@@ -59,17 +72,17 @@ div {
     .orange {
     background-color: orange;
     height: 100px;
-    width: 96%;
+    width: 98%;
     
 }
 
 
-}
+
 
 .blue {
     background-color: blue;
-    height: 30px;
-    width: 96%;
+    height: 70px;
+    width: 98%;
     float: left;
 }
 
@@ -77,10 +90,15 @@ div {
 .grey {
     background-color: grey;
     height: 80px;
-    width: 45%;
+    width: 48%;
     display:inline-block;
     float:left;
 }
+
+}
+
+
+ /* gran mida */
 
 
 @media (width > 768px) {
@@ -92,7 +110,7 @@ div {
     background-color: orange;
     width: 48%;
     height: 100px;
-    display:inline-block    
+    float:left;  
     
 }
 
@@ -100,8 +118,8 @@ div {
 
 .blue {
     background-color: blue;
-    height: 30px;
-    width: 30%;
+    height: 100px;
+    width: 31.33%;
     float: left;
 }
 
@@ -109,7 +127,7 @@ div {
 .grey {
     background-color: grey;
     height: 80px;
-    width: 22%;
+    width: 23%;
     float: left;
     
 }
