@@ -1,0 +1,39 @@
+.box {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.rojo {
+  background-color: rgb(255, 0, 0);
+}
+.verde {
+  background-color: rgb(0, 255, 0);
+}
+.azul {
+  background-color: rgb(0, 0, 255);
+}
+
+.morado {
+  background-color: rgb(255, 0, 255);
+}
+
+.cian {
+  background-color: rgb(0, 255, 255);
+}
+
+.amarillo {
+  background-color: rgb(255, 255, 0);
+}

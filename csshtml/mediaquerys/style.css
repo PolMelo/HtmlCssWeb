@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+    margin: 10px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.green {
+    background-color: green;
+    width: 98%;
+    height: 400px;
+    
+}
+
+
+@media (width < 320px) {
+    body {
+        background-color: lightblue;
+    }
+
+
+    .orange {
+    background-color: orange;
+    height: 100px;
+    width: 96%;
+}
+
+
+
+.blue {
+    background-color: blue;
+    height: 30px;
+    width: 96%;
+}
+
+
+.grey {
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    display:inline-block;
+}
+    
+}
+
+@media (320px <= width <= 768px) {
+    body {
+        background-color: lightgrey;
+    }
+
+    .orange {
+    background-color: orange;
+    height: 100px;
+    width: 96%;
+    
+}
+
+
+}
+
+.blue {
+    background-color: blue;
+    height: 30px;
+    width: 96%;
+    float: left;
+}
+
+
+.grey {
+    background-color: grey;
+    height: 80px;
+    width: 45%;
+    display:inline-block;
+    float:left;
+}
+
+
+@media (width > 768px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .orange {
+    background-color: orange;
+    width: 48%;
+    height: 100px;
+    display:inline-block    
+    
+}
+
+
+
+.blue {
+    background-color: blue;
+    height: 30px;
+    width: 30%;
+    float: left;
+}
+
+
+.grey {
+    background-color: grey;
+    height: 80px;
+    width: 22%;
+    float: left;
+    
+}
+
+}
