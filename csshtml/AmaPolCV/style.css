@@ -1,0 +1,101 @@
+/*Fotos pero molt millorable*/
+.logomenu{
+max-width: 20px;
+max-height: 20px;
+}
+
+.logoweb{
+    max-width:200px;
+    height: auto;
+}
+/*Generals de la web*/
+
+body{
+    margin:0px;
+}
+
+.grid{
+    display:grid;
+}
+
+h2{
+    color:orange;
+}
+
+strong{
+    font-style: bold;
+}
+/*Header amb les fotos*/
+
+li {
+    list-style-type:none;
+}
+
+.headerlogos {
+    grid-template-columns:2fr 1fr 1fr;
+    max-width:400px;
+    align-items:center;
+    column-gap:20px;    
+
+}
+
+/* Grid principal es barra busqueda i aqui tots els elements*/
+.barrabusqueda{
+    margin-left:10px;
+    justify-content:center;
+    grid-template-columns:auto auto auto;
+    column-gap:4px;
+    
+}
+.huecobusqueda{
+    max-width:500px;
+}
+.labelbusqueda{
+    max-width: fit-content;
+}
+
+.goBTN {
+    max-width: fit-content;
+    background-color: gray;
+    color:white;
+    border-radius:10px;
+}
+
+/*Navegador*/
+
+
+
+.nav-subnav-item {
+    padding:0px;
+    margin:0px;
+    display:inline;
+}
+
+#talentosnav{
+    background-color:rgb(165, 156, 156);
+    padding:0px;
+    margin:0px;
+
+}
+
+/*Apartat de frequentnly bought together*/
+
+.compradosconjuntamente{
+
+}
+
+/*Divisors separadors com li vulguis dir*/
+
+.custom-divider{
+     border: none; /* Remove default border */
+          height: 1px; /* Set thickness */
+          background-color: blue; /* Set color */
+          margin: 10px 0; /* Add some space above and below */
+}
+.custom-divider-estret{
+    border: none; /* Remove default border */
+          height: 1px; /* Set thickness */
+          background-color: rgb(222, 141, 19); /* Set color */
+          margin: 1px 0; /* Add some space above and below */
+}
+
