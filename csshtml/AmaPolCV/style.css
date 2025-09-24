@@ -59,6 +59,7 @@ li {
     background-color: gray;
     color:white;
     border-radius:10px;
+    cursor: pointer;
 }
 
 /*Navegador*/
@@ -78,7 +79,80 @@ li {
 
 }
 
+.talentos{
+    margin:1px;
+    padding:1px;
+}
+
+/*Apartat producto*/
+.producto {
+    grid-template-columns: 2fr 4fr 1fr;
+}
+
+#h1producto{ 
+margin:0;
+padding:0;}
+
+#h3producto {
+    margin:0;
+    padding:0;
+}
+#disponible{
+    font-style: bold;
+    color:blue;
+
+}
+
+/*Botones */
+.botoneria{
+    grid-template-rows: auto auto auto 3fr;
+    margin:0px;
+    padding:0px;
+}
+#compraya{
+background-color:rgb(229, 145, 19);
+    color:black;
+    border-radius: 10px;
+    min-width:fit-content;
+    min-height:fit-content;
+    max-height: 12px;
+}
+
+#cesta{
+background-color:rgb(239, 219, 41);
+    color:black;
+    border-radius: 10px;
+    min-width:fit-content;
+    min-height:fit-content;
+    max-height: 12px;
+}
+
+#wishlist{
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    min-width:fit-content;
+    min-height:fit-content;
+    max-height: 12px;
+}
+
 /*Apartat de frequentnly bought together*/
+.plus{
+    color:gray;
+    justify-self:center;
+    font-size: 40px;
+    font-style: bold;
+}
+
+.fotosfbt {
+    grid-template-columns: auto 30px auto 30px auto 5fr;
+    column-gap:0px;
+}
+
+.fbtfotos{
+    width: 120px;
+    height: 120px;
+}
 
 .compradosconjuntamente{
 

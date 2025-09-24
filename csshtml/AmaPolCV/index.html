@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AmaPol</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 
 
@@ -30,7 +31,7 @@
     <label class="labelbusqueda" for="site-search">Busqueda</label>
 <input class="huecobusqueda" type="search" id="site-search" name="q" />
 
-<button class="goBTN">Go</button>
+<button class="goBTN" onclick="clickbuscar()">Go</button>
 
 </div>
 
@@ -63,8 +64,38 @@
 
 </div>
         <hr class="custom-divider">
-<div class="grid compradosconjuntamente">
+
+<div class="grid producto">
+<div><img src="IMG/OCTOPOL.png" width="300px" height="auto"></div>
+<div>
+<h1 id="h1producto">Pol Melo Subirat</h1>
+<h3 id="h3producto">⭐⭐⭐⭐⭐</h3>
+<hr class="custom-divider">
+<h3 id="disponible">Actualmente esta disponible.</h3>
+<p>uhsihgoishuighsijhiwheoiyfuirhihsf</p>
+</div>
+
+<div class="grid botoneria">
+    <button id="cesta">Añadir a la cesta</button>
+    <button id="compraya">Contrata ya</button>
+    <button id="wishlist">Añadir a la lista de deseos</button>
+</div>
+
+</div>
+
+
+
+        <hr class="custom-divider">
 <h2>Comprados juntos frecuentemente</h2>
+        <div class="grid fotosfbt">
+<img src="IMG/OCTOPOL.png" alt="pulpo" class="fbtfotos">
+<p class="plus">+</p>
+<img src="IMG/mcnuggets.png" alt="McNuggets" class="fbtfotos">
+<p class="plus">+</p>
+<img src="IMG/eapro.jpg" alt="eapro" class="fbtfotos">
+        </div>
+<div class="grid compradosconjuntamente">
+
 
 
 <!-- Checkbox de items comprados en conjunto -->
